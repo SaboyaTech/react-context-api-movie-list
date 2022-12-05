@@ -21,7 +21,7 @@ const AddMovie = () => {
 
   return (  
     <form onSubmit={handleSubmit}>
-      <label htmlFor="movie-title">Movie Title</label>
+      <label htmlFor="movie-title">Movie Title:</label>
       <input
         type="text"
         name="movie-title"
@@ -29,7 +29,7 @@ const AddMovie = () => {
         value={ title }
         onChange={e => setTitle(e.target.value)}
       />
-      <label htmlFor="movie-price">Movie Price</label>
+      <label htmlFor="movie-price">Movie Price:</label>
       <input
         type="text"
         name="movie-price"

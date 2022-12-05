@@ -12,12 +12,12 @@ export const MovieProvider = props => {
     {
       id: 2,
       title: 'Game of Thrones',
-      price: '10'
+      price: '12'
     },
     {
       id: 3,
       title: 'Inception',
-      price: '10'
+      price: '15'
     }
   ])
   
